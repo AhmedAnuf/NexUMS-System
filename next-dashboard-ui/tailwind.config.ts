@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        nexBlue: "#213555",
+        nexLightBlue: "#3E5879",
+        nexBeige: "#D8C4B6",
+        nexLightBeige: "#F5EFE7",
+      },
     },
   },
   plugins: [],
