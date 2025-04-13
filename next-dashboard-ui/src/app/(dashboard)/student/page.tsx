@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-const StudentPage = () => {
-  return <div>StudentPage</div>;
-=======
 import Announcements from "@/components/Announcements";
 import BigCalendar from "@/components/BigCalendar";
 import EventCalendar from "@/components/EventCalender";
@@ -23,7 +19,6 @@ const StudentPage = () => {
       </div>
     </div>
   );
->>>>>>> Stashed changes
 };
 
 export default StudentPage;
