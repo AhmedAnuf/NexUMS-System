@@ -2,7 +2,11 @@ import Image from "next/image";
 
 const UserCard = ({ type }: { type: string }) => {
   return (
+<<<<<<< Updated upstream
     <div className="rounded-2xl odd:bg-nexLightBlue odd:text-white even:bg-nexLightBeige p-4 flex-1 min-w-[130px]">
+=======
+    <div className="rounded-2xl odd:bg-nexLightBlue odd:text-white even:bg-nexBeige p-4 flex-1 min-w-[130px]">
+>>>>>>> Stashed changes
       <div className="flex justify-between items-center">
         <span className="text-[10px] text-black bg-white px-2 py-1 rounded-full text-black-600">
           2025/26

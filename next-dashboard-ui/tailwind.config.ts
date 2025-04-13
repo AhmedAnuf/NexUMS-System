@@ -18,6 +18,12 @@ const config: Config = {
         nexLightBlue: "#3E5879",
         nexBeige: "#D8C4B6",
         nexLightBeige: "#F5EFE7",
+<<<<<<< Updated upstream
+=======
+        nexLightSky: "#EDF9FD",
+        nexLightGrey: "#D3D3D3",
+        nexLightPurple: "#F1F0FF",
+>>>>>>> Stashed changes
       },
     },
   },
