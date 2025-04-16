@@ -32,12 +32,12 @@
 
 .rbc-btn-group:last-child button {
   border: none !important;
-  background-color: #f1f0ff !important;
+  background-color: #f5efe7 !important;
   margin-left: 2px !important;
 }
 
 .rbc-toolbar button.rbc-active {
-  background-color: #dbdafe !important;
+  background-color: #d8c4b6 !important;
   box-shadow: none !important;
 }
 
@@ -67,6 +67,15 @@
 
 .rbc-day-slot {
   font-size: 14px !important;
+}
+
+.rbc-current-time-indicator {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  height: 100%;
+  border: 2px solid blue;
 }
 
 .rbc-event {
