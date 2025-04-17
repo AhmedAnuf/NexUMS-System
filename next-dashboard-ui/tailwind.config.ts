@@ -25,6 +25,7 @@ const config: Config = {
         nexYellow: "#FAE27C",
         nexLightYellow: "#FEFCE8",
         nexLightRed: "#FF6961",
+        nexBlack: "#000000",
       },
     },
   },

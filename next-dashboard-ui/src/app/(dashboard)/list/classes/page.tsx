@@ -1,3 +1,4 @@
+import FormModal from "@/components/FormModal";
 import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
@@ -52,7 +53,7 @@ const ClassListPage = () => {
       <td className="hidden md:table-cell py-4">{item.supervisor}</td>
       <td>
         <div className="flex items-center gap-2">
-          <Link href={`/list/lecturers/${item.id}`}>
+          {/* <Link href={`/list/lecturers/${item.id}`}>
             <button className="w-5 h-5 flex items-center justify-center rounded-full bg-black">
               <Image src="/edit.png" alt="" width={18} height={16} />
             </button>
@@ -61,7 +62,11 @@ const ClassListPage = () => {
             <button className="w-7 h-7 flex items-center justify-center rounded-full bg-nexLightSky">
               <Image src="/delete.png" alt="" width={14} height={14} />
             </button>
-          )}
+          )} */}
+          <>
+            <FormModal table="class" type="update" data={item} />
+            <FormModal table="class" type="delete" id={item.id} />
+          </>
         </div>
       </td>
     </tr>
@@ -82,9 +87,10 @@ const ClassListPage = () => {
               <Image src="/sort.png" alt="" width={14} height={14} />
             </button>
             {role === "admin" && (
-              <button className="w-7 h-7 flex items-center justify-center rounded-full bg-nexYellow">
-                <Image src="/plus.png" alt="" width={14} height={14} />
-              </button>
+              // <button className="w-7 h-7 flex items-center justify-center rounded-full bg-nexYellow">
+              //   <Image src="/plus.png" alt="" width={14} height={14} />
+              // </button>
+              <FormModal table="class" type="create" />
             )}
           </div>
         </div>
