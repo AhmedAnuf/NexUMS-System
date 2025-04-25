@@ -11,7 +11,7 @@ export const lecturersData = [
     photo:
       " https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234563890",
-    subjects: ["Discrete Math", "Geometry"],
+    subjects: ["Discrete Math", "Database Systems"],
     classes: ["1B", "2A", "3C"],
     address: "123 Main St, Anytown, USA",
   },
@@ -59,7 +59,7 @@ export const lecturersData = [
     photo:
       "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234563890",
-    subjects: ["Music", "Database Management"],
+    subjects: ["Final Year Research Project", "Database Management"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
@@ -83,7 +83,7 @@ export const lecturersData = [
     photo:
       "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234563890",
-    subjects: ["IT Security", "Spanish"],
+    subjects: ["IT Security", "Cloud Computing"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
@@ -95,7 +95,7 @@ export const lecturersData = [
     photo:
       "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234563890",
-    subjects: ["Discrete Math", "Geometry"],
+    subjects: ["Discrete Math", "Computer Networks"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
@@ -107,7 +107,7 @@ export const lecturersData = [
     photo:
       "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234563890",
-    subjects: ["Literature", "IT Security"],
+    subjects: ["UI/UX Design", "IT Security"],
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
@@ -334,52 +334,52 @@ export const parentsData = [
 export const subjectsData = [
   {
     id: 1,
-    name: "Discrete Math",
+    name: "Discrete Mathematics",
     lecturers: ["Alice Phelps", "Russell Davidson"],
   },
   {
     id: 2,
-    name: "IT Security",
+    name: "Cybersecurity Fundamentals",
     lecturers: ["Manuel Becker", "Eddie Chavez"],
   },
   {
     id: 3,
-    name: "Analytics ",
+    name: "Data Analytics",
     lecturers: ["Lola Newman", "Darrell Delgado"],
   },
   {
     id: 4,
-    name: "Research Project",
+    name: "Final Year Research Project",
     lecturers: ["Nathan Kelly", "Benjamin Snyder"],
   },
   {
     id: 5,
-    name: "Programming",
+    name: "Object-Oriented Programming",
     lecturers: ["Alma Benson", "Lina Collier"],
   },
   {
     id: 6,
-    name: "Database Management",
+    name: "Database Systems",
     lecturers: ["Hannah Bowman", "Betty Obrien"],
   },
   {
-    id: 3,
-    name: "Geography",
+    id: 7,
+    name: "Cloud Computing",
     lecturers: ["Lora French", "Sue Brady"],
   },
   {
     id: 8,
-    name: "Art",
+    name: "UI/UX Design",
     lecturers: ["Harriet Alvarado", "Mayme Keller"],
   },
   {
     id: 9,
-    name: "Music",
+    name: "Computer Networks",
     lecturers: ["Gertrude Roy", "Rosa Singleton"],
   },
   {
     id: 10,
-    name: "Literature",
+    name: "Software Engineering",
     lecturers: ["Effie Lynch", "Brett Flowers"],
   },
 ];
