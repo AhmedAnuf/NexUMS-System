@@ -4,6 +4,7 @@
 
 .react-calendar {
   width: 100% !important;
+
   border: none !important;
   font-family: "Inter", sans-serif !important;
 }
@@ -75,7 +76,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  border: 2px solid blue;
+  border: 0.5px solid blue;
 }
 
 .rbc-event {

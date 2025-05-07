@@ -15,12 +15,16 @@ const LecturerForm = dynamic(() => import("./forms/LecturerForm"), {
 const StudentForm = dynamic(() => import("./forms/StudentForm"), {
   loading: () => <h1>Loading...</h1>,
 });
+const SubjectForm = dynamic(() => import("./forms/SubjectForm"), {
+  loading: () => <h1>Loading...</h1>,
+});
 
 const forms: {
   [key: string]: (type: "create" | "update", data?: any) => JSX.Element;
 } = {
   lecturer: (type, data) => <LecturerForm type={type} data={data} />,
   student: (type, data) => <StudentForm type={type} data={data} />,
+  subject: (type, data) => <SubjectForm type={type} data={data} />,
 };
 
 const FormModal = ({
@@ -44,7 +48,7 @@ const FormModal = ({
     | "announcement";
   type: "create" | "update" | "delete";
   data?: any;
-  id?: number;
+  id?: number | string;
 }) => {
   const size = type === "create" ? "w-7 h-7" : "w-6 h-6";
   const bgColor =
