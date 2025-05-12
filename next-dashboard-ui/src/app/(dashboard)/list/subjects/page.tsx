@@ -138,10 +138,14 @@ const SubjectsListPage = async ({
             {role === "admin" && (
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               // <button className="w-7 h-7 flex items-center justify-center rounded-full bg-nexYellow">
               //   <Image src="/plus.png" alt="" width={14} height={14} />
               // </button>
               <FormModal table="subject" type="create" />
+=======
+              <FormContainer table="subject" type="create" />
+>>>>>>> Stashed changes
 =======
               <FormContainer table="subject" type="create" />
 >>>>>>> Stashed changes

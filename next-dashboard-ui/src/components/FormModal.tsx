@@ -51,9 +51,12 @@ const forms: {
 } = {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   lecturer: (type, data) => <LecturerForm type={type} data={data} />,
   student: (type, data) => <StudentForm type={type} data={data} />,
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   lecturer: (setOpen, type, data, relatedData) => (
@@ -81,6 +84,9 @@ const forms: {
     />
   ),
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -91,6 +97,7 @@ const FormModal = ({
   type,
   data,
   id,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 }: {
@@ -111,6 +118,10 @@ const FormModal = ({
   data?: any;
   id?: number;
 }) => {
+=======
+  relatedData,
+}: FormContainerProps & { relatedData?: any }) => {
+>>>>>>> Stashed changes
 =======
   relatedData,
 }: FormContainerProps & { relatedData?: any }) => {
