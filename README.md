@@ -154,7 +154,7 @@ Parents cannot edit student information or access other students' data.
 
           |
           |
-     Nex.js Application
+     next.js Application
 
           |
  -----------------------------
@@ -177,7 +177,7 @@ Frontend UI             Backend Logic
 
 | Component | Technology |
 |---|---|
-| Frontend | Nex.js, React, Tailwind CSS |
+| Frontend | next.js, React, Tailwind CSS |
 | Backend | Node.js, Express.js |
 | Database | PostgreSQL |
 | ORM | Prisma |
@@ -196,7 +196,7 @@ Frontend UI             Backend Logic
 
 ## Authentication
 
-### Clerk (@clerk/Nexjs)
+### Clerk (@clerk/nextjs)
 
 Used for:
 
@@ -287,7 +287,7 @@ Used for:
 # 📁 Project Structure
 
 ```
-NexUMS/
+nextUMS/
 
 │
 ├── app/
