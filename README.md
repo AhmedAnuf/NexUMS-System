@@ -1,9 +1,9 @@
-# NexUMS - Next University Management System
+# NexUMS - Nex University Management System
 
 
 ## 📌 Overview
 
-**NexUMS (Next University Management System)** is a modern full-stack university management platform designed to improve communication between universities, students, lecturers, administrators, and parents.
+**NexUMS (Nex University Management System)** is a modern full-stack university management platform designed to improve communication between universities, students, lecturers, administrators, and parents.
 
 Unlike traditional University Management Systems that mainly focus on lecturer-student interactions, NexUMS introduces a dedicated **parental monitoring system** that provides parents with real-time visibility into their child's academic progress, attendance, assignments, and important university updates.
 
@@ -154,7 +154,7 @@ Parents cannot edit student information or access other students' data.
 
           |
           |
-     Next.js Application
+     Nex.js Application
 
           |
  -----------------------------
@@ -177,7 +177,7 @@ Frontend UI             Backend Logic
 
 | Component | Technology |
 |---|---|
-| Frontend | Next.js, React, Tailwind CSS |
+| Frontend | Nex.js, React, Tailwind CSS |
 | Backend | Node.js, Express.js |
 | Database | PostgreSQL |
 | ORM | Prisma |
@@ -196,7 +196,7 @@ Frontend UI             Backend Logic
 
 ## Authentication
 
-### Clerk (@clerk/nextjs)
+### Clerk (@clerk/Nexjs)
 
 Used for:
 
@@ -367,7 +367,7 @@ Create `.env` file:
 ```env
 DATABASE_URL="postgresql_database_url"
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your_key"
+Nex_PUBLIC_CLERK_PUBLISHABLE_KEY="your_key"
 
 CLERK_SECRET_KEY="your_secret"
 
