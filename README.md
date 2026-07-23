@@ -1,6 +1,5 @@
 # NexUMS - Next University Management System
 
-![NexUMS Logo](./public/logo.png)
 
 ## 📌 Overview
 
@@ -460,4 +459,4 @@ Future enhancements include:
 
 # 👨‍💻 Author
 
-**Ahmed Anuf**
+**Mansoor Manar Ahmed Anuf**
